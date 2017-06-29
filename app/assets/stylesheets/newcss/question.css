@@ -1,0 +1,195 @@
+ .header {
+        background-image: url(../imgs/question/banner.jpeg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% 100%;
+        height: 5rem;
+        width: 100%;
+    }
+    
+    .nav-wrap {
+        padding-top: .2rem;
+        overflow: hidden;
+    }
+    
+    .logo-wrap {
+        float: left;
+    }
+    
+    .nav-content.left {
+        float: left;
+        overflow: hidden;
+    }
+    
+    .nav-content.right {
+        float: right;
+        overflow: hidden;
+    }
+    
+    .logo-wrap {
+        margin-left: .32rem;
+        width: 1.36rem;
+        margin-right: .54rem;
+    }
+    
+    .nav-content li {
+        float: left;
+        font-size: .18em;
+        padding-right: .7rem;
+        height: .35rem;
+        line-height: .35rem;
+    }
+    
+    .nav-content a {
+        display: block;
+        color: #fff;
+    }
+    
+    .nav-content a:hover {
+        opacity: .5;
+    }
+    
+    .header-content {
+        /*padding-left: 3.7rem;*/
+        padding-top: 2.4rem;
+        color: #fff;
+    }
+    
+    .header-content h2 {
+        font-size: .36em;
+        text-align: center;
+    }
+    
+    .header-content h3 {
+        font-size: .48em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .content-question {
+    margin-left: 3.74rem;
+    margin-bottom:1rem
+    }
+    .content-question h2{
+     font-size: .48em;
+     /*font-weight: bold;*/
+     text-align: left;
+     color:#000;
+     margin-top: 1rem;
+     }
+     .question-list h3{
+       font-size: .24em;
+     /*font-weight: bold;*/
+     text-align: left;
+     color:#000;
+     margin-top: .59rem;
+     margin-bottom: .19rem;
+     }
+     .question-list p{
+    font-size: .14em;
+     /*font-weight: bold;*/
+     text-align: left;
+     color:#333;
+     margin-top: .1rem;
+     }
+
+
+
+
+     .footer {
+    overflow: auto;
+    color: #fff;
+}
+
+.footer-content {
+    background-color: #252525;
+    padding-left: 3.7rem;
+    padding-top: .6rem;
+    padding-bottom: .7rem;
+    overflow: hidden;
+}
+
+.footer-content ul {
+    float: left;
+    overflow: hidden;
+}
+
+.footer-content li {
+    float: left;
+    padding-right: 1.2rem;
+}
+
+.footer-content li:last-child {
+    padding-right: 0;
+}
+
+.footer-content h3 {
+    font-size: .24em;
+    padding-bottom: .5rem;
+}
+
+.footer-content a {
+    display: block;
+    font-size: .14em;
+    color: #fff;
+    padding-bottom: .16rem;
+}
+
+.footer-content a:hover {
+    opacity: .5;
+}
+
+.footer-logo{
+    float: left;
+    padding-left: 2.12rem;
+    width: 2.12rem;
+}
+
+.footer-logo img {
+    width: 100%;
+    margin-top: -0.25rem;
+    margin-left: 0.8rem;
+}
+.footerlogo-list {
+    float: left;
+    padding-left: 2.12rem;
+    width: 3rem;
+}
+.footerlogo-list .weico {
+    width: 1.2rem;
+    float: left;
+}
+.footerlogo-list .weibo {
+    width: 1.2rem;
+    float: right;
+}
+.weico img{
+   width: 100%;
+}
+.weibo img{
+    width: 100%;
+}
+.footerlogo-list p{
+	font-size: .14em;
+	color :#fff;
+}
+.footer-code {
+    padding: .1rem 3.7rem;
+    overflow: hidden;
+    background-color: #181818;
+}
+
+.footer-code span {
+    display: block;
+    float: left;
+    font-size: .12em;
+    line-height: 1.5;
+}
+
+.footer-code span:last-child {
+    float: right;
+}
+
+.flickity-page-dots .dot.is-selected {
+    width: .3rem;
+    border-radius: .08rem;
+}
